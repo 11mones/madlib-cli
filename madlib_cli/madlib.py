@@ -86,7 +86,6 @@ if __name__=="__main__" :
         Here is it : 
           """)
 
-
     print (merge(str , wordsList))
     completed_text = merge(str , wordsList)
     f = open("comp.txt", "a")
