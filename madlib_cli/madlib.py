@@ -87,7 +87,7 @@ if __name__=="__main__" :
           """)
     print (merge(str , wordsList))
     completed_text = merge(str , wordsList)
-    f = open("comp.txt", "a")
+    f = open("../assets/GenaratedText.txt", "w")
     f.write(completed_text)
     f.close()
 
